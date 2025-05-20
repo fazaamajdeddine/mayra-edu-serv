@@ -1,4 +1,4 @@
-'use client'; 
+'use client';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 
@@ -16,17 +16,17 @@ const LoginPage = () => {
       <div className="w-full md:w-1/2 flex items-center justify-center p-8 bg-white">
         <div className="w-full max-w-md">
           <div className="mb-8 text-center">
-            <Image 
-              src="/logo.png" 
-              alt="School Logo" 
-              width={120} 
-              height={120} 
+            <Image
+              src="/logo.png"
+              alt="School Logo"
+              width={120}
+              height={120}
               className="mx-auto mb-4"
             />
             <h1 className="text-3xl font-bold text-gray-800">Welcome Back</h1>
             <p className="text-gray-600 mt-2">Sign in to your account</p>
           </div>
-          
+
           <div className="space-y-6">
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">Email</label>
@@ -71,11 +71,11 @@ const LoginPage = () => {
           </div>
         </div>
       </div>
-      
+
       {/* Right side - Background Image */}
-      <div 
-        className="w-full md:w-1/2 bg-cover bg-center h-64 md:h-auto" 
-        style={{ 
+      <div
+        className="w-full md:w-1/2 bg-cover bg-center h-64 md:h-auto"
+        style={{
           backgroundImage: "url('/school-management.jpg')",
           backgroundSize: 'cover',
           backgroundPosition: 'center'
@@ -84,8 +84,7 @@ const LoginPage = () => {
         <div className="h-full w-full bg-black bg-opacity-50 flex items-center justify-center p-8">
           <div className="text-center text-white">
             <h2 className="text-3xl font-bold mb-4">School Management System</h2>
-            <p className="text-xl">Streamline your educational institution's operations</p>
-          </div>
+            <p className="text-xl">Streamline your educational institution&apos;s operations</p> </div>
         </div>
       </div>
     </div>
