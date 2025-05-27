@@ -34,6 +34,7 @@ const LoginPage = () => {
                 type="email"
                 className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors"
                 placeholder="Enter your email"
+                defaultValue="startupact2025@testdemo.com"
               />
             </div>
             <div>
@@ -42,6 +43,7 @@ const LoginPage = () => {
                 type="password"
                 className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors"
                 placeholder="Enter your password"
+                defaultValue="startupacttn"
               />
             </div>
             <div className="flex items-center justify-between">

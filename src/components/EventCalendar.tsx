@@ -9,25 +9,25 @@ type ValuePiece = Date | null;
 
 type Value = ValuePiece | [ValuePiece, ValuePiece];
 
-// TEMPORARY
+// Updated events with school-related information
 const events = [
   {
     id: 1,
-    title: "Lorem ipsum dolor",
-    time: "12:00 PM - 2:00 PM",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Math Exam",
+    time: "10:00 AM - 12:00 PM",
+    description: "Mid-term mathematics exam for all 10th-grade students.",
   },
   {
     id: 2,
-    title: "Lorem ipsum dolor",
-    time: "12:00 PM - 2:00 PM",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Science Fair",
+    time: "1:00 PM - 4:00 PM",
+    description: "Annual science fair showcasing student projects and experiments.",
   },
   {
     id: 3,
-    title: "Lorem ipsum dolor",
-    time: "12:00 PM - 2:00 PM",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Parent-Teacher Meeting",
+    time: "3:00 PM - 5:00 PM",
+    description: "Meeting for parents to discuss student progress with teachers.",
   },
 ];
 
